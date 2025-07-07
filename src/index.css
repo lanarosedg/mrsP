@@ -28,8 +28,8 @@
 }
 
 .productImage1 {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
 }
 
 .productItem2 {
@@ -38,8 +38,8 @@
 }
 
 .productImage2 {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
 }
 
 .productItem3 {
@@ -48,8 +48,8 @@
 }
 
 .productImage3 {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
 }
 
 .productItem4 {
@@ -58,6 +58,90 @@
 }
 
 .productImage4 {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
+}
+
+.footerContainer {
+  display: grid;
+  grid-template-rows: 100px auto 50px 50px 30px 30px 50px 25px;
+  grid-template-columns: auto 150px 10px 110px auto;
+}
+
+.line {
+  display: grid;
+  grid-area: 2 / 1 / 3 / 6;
+  background-color: #B43F3F;
+  justify-content: center;
+}
+
+.footerLogo {
+  width: 116px;
+  height: 37px;
+  display: grid;
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.feedback {
+  width: 122px;
+  height: 25px;
+  border-style: none;
+  border-radius: 10px;
+  background-color: rgba(180, 63, 63, 0.2);
+  font-size: 12px;
+  display: grid;
+  grid-area: 5 / 2 / 6 / 3;
+  align-content: center;
+}
+
+.locationContainer {
+  display: grid;
+  grid-area: 6 / 2 / 7 / 3;
+  font-size: 10px;
+}
+
+.locationFlex {
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+
+.locationImage {
+  width: 17px;
+  height: 17px;
+}
+
+.copyright {
+  display: grid;
+  grid-area: 8 / 1 / 9 / 6;
+  font-size: 10px;
+  font-family: 'Montserrat';
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(180, 63, 63, 0.2);
+}
+
+.linkContainer {
+  display: grid;
+  grid-area: 4 / 4 / 6 / 5;
+}
+
+.linkContainer a {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.contactContainer {
+  display: grid;
+  grid-area: 6 / 4 / 7 / 5;
+}
+
+.contactLogoContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.contactLogo {
+  width: 23px;
+  height: 23px;
 }

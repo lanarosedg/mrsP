@@ -13,6 +13,8 @@ import block2 from './assets/women/block/block2.png';
 import block3 from './assets/women/block/block3.png';
 import block4 from './assets/women/block/block4.png';
 
+import Footer from './Footer';
+
 function WomenSchool () {
     return (
         <>
@@ -165,6 +167,8 @@ function WomenSchool () {
                     </p>
                 </div>
             </div>
+            
+            <Footer />
         </>
     )
 }
