@@ -16,14 +16,13 @@ import block4 from './assets/women/block/block4.png';
 import NavigationBar from './NavigationBar'
 import Footer from './Footer';
 
-
 function WomenSchool () {
     return (
         <>
         <NavigationBar/>
         <div className="productsContainer">
             <p className="productCategory">
-                School Shoes
+                Black Shoes
             </p>
                 <div className="productItem1">
                     <img 

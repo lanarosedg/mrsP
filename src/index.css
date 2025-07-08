@@ -187,7 +187,14 @@
   gap: 60px;
 }
 
-.navBottomFlex a {
+.navBottomFlex button {
   text-decoration: none;
+  padding: 14px;
+  background-color: rgba(180, 63, 63, 0);
+  border-style: none;
+  cursor: pointer;
 }
 
+.navBottomFlex button:hover {
+  background-color: rgba(180, 63, 63, 0.2);
+}

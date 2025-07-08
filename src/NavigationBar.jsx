@@ -1,7 +1,10 @@
+import { useNavigate } from 'react-router-dom';
+
 import navLogo from './assets/logo.png';
 import menu from './assets/menu.png';
 
 function NavigationBar() {
+    const navigate = useNavigate();
     return (
         <>
         <div className="navParent">
@@ -11,6 +14,7 @@ function NavigationBar() {
                         src={navLogo} 
                         alt="" 
                         className="navLogo" 
+                        onClick={() => navigate('/')}
                     />
                     <img 
                         src={menu} 
@@ -21,15 +25,17 @@ function NavigationBar() {
             </div>
             <div className="navBottom">
                 <div className="navBottomFlex">
-                    <a href="">
+                    <button 
+                        onClick={() => navigate('/')}>
                         Women
-                    </a>
-                    <a href="">
+                    </button>
+                    <button 
+                        onClick={() => navigate('/Men')}>
                         Men
-                    </a>
-                    <a href="">
+                    </button>
+                    <button>
                         Kids
-                    </a>
+                    </button>
                 </div>
             </div>
         </div>
